@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "svitik1337133713371337",
+      "role": "admin",
+      "unique_id": "AG-ADMIN-001",
+      "created_at": "2026-10-01T00:00:00Z",
+      "banned": false,
+      "hwid": "HWID-8849-01X-MASTER",
+      "products": []
+    },
+    {
+      "id": 2,
+      "username": "AnonGrief_User",
+      "email": "user@anongrief.net",
+      "password": "user123",
+      "role": "user",
+      "unique_id": "AG-USER-1337",
+      "created_at": "2026-10-02T12:00:00Z",
+      "banned": false,
+      "hwid": "HWID-USER-9482",
+      "products": []
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Aimware",
+      "category": "cs2",
+      "description": "Нет в наличии",
+      "status": "Нет в наличии",
+      "avatar": "/assets/aimware.png",
+      "icon": "/assets/aimware.png",
+      "price": 0.0,
+      "subscriptions": [
+        {
+          "id": 1,
+          "days": 30,
+          "price": 0,
+          "currency": "RUB",
+          "free": false
+        },
+        {
+          "id": 2,
+          "days": 9999,
+          "price": 0,
+          "currency": "RUB",
+          "free": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Compkiller",
+      "category": "cs2",
+      "description": "Нет в наличии",
+      "status": "Нет в наличии",
+      "avatar": "/assets/compkiller.png",
+      "icon": "/assets/compkiller.png",
+      "price": 0.0,
+      "subscriptions": [
+        {
+          "id": 3,
+          "days": 30,
+          "price": 0,
+          "currency": "RUB",
+          "free": false
+        },
+        {
+          "id": 4,
+          "days": 9999,
+          "price": 0,
+          "currency": "RUB",
+          "free": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Nevercrack",
+      "category": "cs2",
+      "description": "Бесплатный кряк",
+      "status": "Бесплатно",
+      "avatar": "",
+      "icon": "",
+      "price": 0.0,
+      "free": true,
+      "subscriptions": [
+        {
+          "id": 5,
+          "days": 9999,
+          "price": 0,
+          "currency": "RUB",
+          "free": true
+        }
+      ]
+    }
+  ],
+  "keys": [
+    {
+      "key": "AG-AIMWARE-30D-7FFEE219",
+      "product_id": 1,
+      "days": 30,
+      "used": false,
+      "used_by": null,
+      "created_at": "2026-10-03"
+    },
+    {
+      "key": "AG-AIMWARE-30D-TESTKEY",
+      "product_id": 1,
+      "days": 30,
+      "used": false,
+      "used_by": null,
+      "created_at": "2026-10-03"
+    },
+    {
+      "key": "AG-AIMWARE-LIFETIME-MASTER",
+      "product_id": 1,
+      "days": 9999,
+      "used": false,
+      "used_by": null,
+      "created_at": "2026-10-03"
+    },
+    {
+      "key": "AG-COMPKILLER-30D-TESTKEY",
+      "product_id": 2,
+      "days": 30,
+      "used": false,
+      "used_by": null,
+      "created_at": "2026-10-03"
+    },
+    {
+      "key": "AG-COMPKILLER-LIFETIME-MASTER",
+      "product_id": 2,
+      "days": 9999,
+      "used": false,
+      "used_by": null,
+      "created_at": "2026-10-03"
+    },
+    {
+      "key": "AG-NEVERCRACK-FREE-MASTER",
+      "product_id": 3,
+      "days": 9999,
+      "used": false,
+      "used_by": null,
+      "created_at": "2026-10-03"
+    }
+  ],
+  "stats": {
+    "total_downloads": 24890,
+    "active_users": 1420
+  }
+}
